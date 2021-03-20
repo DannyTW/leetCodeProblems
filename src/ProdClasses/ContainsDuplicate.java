@@ -1,3 +1,5 @@
+package ProdClasses;
+
 import java.util.Arrays;
 
 public class ContainsDuplicate {
@@ -5,7 +7,6 @@ public class ContainsDuplicate {
         // Immediately below is mine, which doesn't finish fast enough for leetCode
 //        for (int i = 0; i < nums.length - 1; i++) {
 //            for (int j = i + 1; j < nums.length; j++) {
-//                System.out.println("nums[i]: " + nums[i] + ", nums[j]: " + nums[j]);
 //                if(nums[i] == nums[j]) return true;
 //            }
 //        }
@@ -17,7 +18,6 @@ public class ContainsDuplicate {
         Arrays.sort(nums);
         for(int i = 0; i < nums.length - 1; i++){
             if(nums[i] == nums[i + 1]){
-                System.out.println("nums[i]: " + nums[i] + ", nums[i+1]: " + nums[i+1]);
                 return true;
             }
         }

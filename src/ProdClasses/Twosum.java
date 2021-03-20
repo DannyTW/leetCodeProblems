@@ -1,3 +1,5 @@
+package ProdClasses;
+
 public class Twosum {
     public static int[] twoSum(int[] nums, int target) {
         int[] indices = new int[2];
