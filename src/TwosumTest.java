@@ -6,5 +6,6 @@ public class TwosumTest {
 
     @Test
     public void twoSum() {
+        fail();
     }
 }
