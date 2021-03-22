@@ -1,3 +1,5 @@
+import ProdClasses.ValidAnagram;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -15,7 +17,7 @@ public class Main {
         }
         **/
 
-        /** Contains Duplicate */
+        /** Contains Duplicate
         int[] nums = {1,2,3,1};
         System.out.println(ProdClasses.ContainsDuplicate.containsDuplicate(nums));
 
@@ -28,11 +30,18 @@ public class Main {
         int[] nums3 = {1,4,7,8,23,12,5,1023,9,10,11,12,13,14,15,16,17,9};
         System.out.println(ProdClasses.ContainsDuplicate.containsDuplicate(nums3));
 
-         /**/
+         **/
 
-        /* Best Time to Buy and Sell Stock */
+        /** Best Time to Buy and Sell Stock
+        int[] prices = {7,2,7,5,1,5,4,5};
+        System.out.println(ProdClasses.BestTimeToBuySellStock.maxProfit(prices));
+         */
 
+        /* Valid Anagram */
+        String s = "eart";
+        String t = "heart";
 
+        System.out.println(ValidAnagram.compareWords(s, t));
     }
 }
 
